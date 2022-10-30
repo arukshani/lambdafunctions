@@ -21,7 +21,7 @@ docker run -p 9000:8080 hello-world
 curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{}'
 ```
 
-## ssh into container
+## Run a container again and ssh into container to test the compression
 ```
 sudo docker run -it --name test1  hello-world  /bin/sh
 sudo docker exec -it test1 /bin/sh
