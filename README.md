@@ -14,7 +14,7 @@ sudo docker run hello-world
 ## Next cd in to lambdafunctions and run the following
 
 ## Test Lambda Function with compression
-## Compression code is in the lambda fcuntion
+#### [Compression code is in the lambda fcuntion]
 
 ```
 sudo docker build -t hello-world . 
