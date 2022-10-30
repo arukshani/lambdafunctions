@@ -10,7 +10,7 @@ docker -v
 sudo docker run hello-world 
 ```
 
-## Test Lamnda Function
+## Test Lambda Function
 
 ```
 docker build -t hello-world . 
