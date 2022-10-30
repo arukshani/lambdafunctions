@@ -16,8 +16,8 @@ sudo docker run hello-world
 ## Test Lambda Function
 
 ```
-docker build -t hello-world . 
-docker run -p 9000:8080 hello-world 
+sudo docker build -t hello-world . 
+sudo docker run -p 9000:8080 hello-world 
 curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{}'
 ```
 
