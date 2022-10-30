@@ -15,6 +15,7 @@ RUN ls -la /opt/katna
 WORKDIR /opt/katna
 #RUN python3.8 example_video_compression.py 
 
+COPY katna/ ${LAMBDA_TASK_ROOT}
 # Copy function code
 COPY app.py ${LAMBDA_TASK_ROOT}
 
