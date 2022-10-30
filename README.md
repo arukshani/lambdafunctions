@@ -13,7 +13,8 @@ sudo docker run hello-world
 ## You need to have katna repo inside lambdafunctions folder since we need to copy the katna repo. 
 ## Next cd in to lambdafunctions and run the following
 
-## Test Lambda Function
+## Test Lambda Function with compression
+## Compression code is in the lambda fcuntion
 
 ```
 sudo docker build -t hello-world . 
