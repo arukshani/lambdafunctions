@@ -15,6 +15,13 @@ RUN ls -la /opt/katna
 WORKDIR /opt/katna
 #RUN python3.8 example_video_compression.py 
 
+#RUN yum install ffmpeg --target "${LAMBDA_TASK_ROOT}"
+COPY ffmpeg-release-amd64-static/ffmpeg-5.1.1-amd64-static/ /usr/local/bin/
+COPY ffmpeg-release-amd64-static/ffmpeg-5.1.1-amd64-static/ /var/task/
+RUN chmod +x /var/task/ffmpeg
+RUN chmod +x /var/task/ffprobe
+RUN chmod +x /usr/local/bin/ffmpeg
+
 COPY katna/ ${LAMBDA_TASK_ROOT}
 # Copy function code
 COPY app.py ${LAMBDA_TASK_ROOT}
