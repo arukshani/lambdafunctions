@@ -29,6 +29,6 @@ sudo docker tag  test-katna:latest 072775118116.dkr.ecr.us-west-2.amazonaws.com/
 sudo docker push 072775118116.dkr.ecr.us-west-2.amazonaws.com/test-katna:latest  
 ```
 
-#### In AWS, create the lambda with the pushed image and run
+#### In AWS, create a lambda with the pushed image and run
 
 
