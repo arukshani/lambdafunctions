@@ -20,7 +20,7 @@ sudo docker run -p 9000:8080 test-katna
 curl -XPOST "http://localhost:9000/2015-03-31/functions/function/invocations" -d '{}'
 ```
 
-## Push image to AWS ECR repository
+## Push the docker image to AWS ECR repository
 #### set AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY and AWS_SESSION_TOKEN as environment variables
 ```
 sudo aws ecr get-login-password --region us-west-2 | sudo docker login --username AWS --password-stdin 072775118116.dkr.ecr.us-west-2.amazonaws.com
