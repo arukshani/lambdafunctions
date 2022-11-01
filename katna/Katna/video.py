@@ -59,9 +59,10 @@ class Video(object):
             self.mediapipe_autoflip = None
 
         # Folder to save the videos after clipping
-        self.temp_folder = os.path.abspath(os.path.join("clipped"))
-        if not os.path.isdir(self.temp_folder):
-            os.mkdir(self.temp_folder)
+        self.temp_folder = "/tmp"
+        # self.temp_folder = os.path.abspath(os.path.join("clipped"))
+        # if not os.path.isdir(self.temp_folder):
+        #     os.mkdir(self.temp_folder)
 
     def _remove_clips(self, video_clips):
         """Remove video clips from the temp directory given list of video clips
