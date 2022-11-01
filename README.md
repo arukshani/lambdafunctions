@@ -9,7 +9,7 @@ sudo apt install docker-ce
 docker -v 
 sudo docker run hello-world 
 ```
-
+## Clone the repository
 ## Next cd in to lambdafunctions and run the following
 
 ## Test lambda function locally
