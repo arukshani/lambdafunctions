@@ -1,7 +1,0 @@
-opencv-python
-psutil
-scipy
-sklearn
-scikit-image
-ffmpy
-imageio_ffmpeg

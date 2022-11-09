@@ -1,3 +1,0 @@
-katna
-sphinx
-sphinx-rtd-theme
