@@ -1,2 +1,2 @@
 ###
-The folder `lambdafunction` consists of python file which are to be used as separate lambda functions.
+The folder `lambdafunction` consists of python files which we use as lambda functions in AWS.
