@@ -1,0 +1,38 @@
+{
+    "Records": [
+      {
+        "eventVersion": "2.1",
+        "eventSource": "aws:s3",
+        "awsRegion": "us-west-2",
+        "eventTime": "2022-11-09T02:07:12.544Z",
+        "eventName": "ObjectCreated:Put",
+        "userIdentity": {
+          "principalId": "AWS:AROARB4N4FUSGVIVVFLCX:ckharbanda"
+        },
+        "requestParameters": {
+          "sourceIPAddress": "24.43.123.69"
+        },
+        "responseElements": {
+          "x-amz-request-id": "TC0VEQPQADYRYMV9",
+          "x-amz-id-2": "gAtizOjqRAIBzOgEci+WRtyCFRYW6vK+b17HgjUdXze6KKVKUwwY0dalcIpbjE9b+thCTPOjLp8AvEmi1T3Y26jQ3/7QfvNx"
+        },
+        "s3": {
+          "s3SchemaVersion": "1.0",
+          "configurationId": "e3912511-8253-4080-9bfb-5c9b90a26cef",
+          "bucket": {
+            "name": "inputvideocse291",
+            "ownerIdentity": {
+              "principalId": "A2D2NS8I8UU15H"
+            },
+            "arn": "arn:aws:s3:::inputvideocse291"
+          },
+          "object": {
+            "key": "Tidead.mp4",
+            "size": 12270816,
+            "eTag": "4089a9d2316b44ce5ccb255ca916afe2",
+            "sequencer": "00636B0B5052033B9F"
+          }
+        }
+      }
+    ]
+  }
