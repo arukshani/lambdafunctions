@@ -1,0 +1,28 @@
+{
+  "version": "0",
+  "id": "9397c89d-c31d-3a8f-1578-7812bc643288",
+  "detail-type": "Object Created",
+  "source": "aws.s3",
+  "account": "072775118116",
+  "time": "2022-11-18T03:06:14Z",
+  "region": "us-west-2",
+  "resources": [
+    "arn:aws:s3:::inputvideocse291"
+  ],
+  "detail": {
+    "version": "0",
+    "bucket": {
+      "name": "inputvideocse291"
+    },
+    "object": {
+      "key": "Tidead.mp4",
+      "size": 1359903,
+      "etag": "98f61b53021edd77e00c6a6bcb24204d",
+      "sequencer": "006376F6A69A40B0B1"
+    },
+    "request-id": "JNJQRNFB85EE2CET",
+    "requester": "072775118116",
+    "source-ip-address": "70.95.169.47",
+    "reason": "PutObject"
+  }
+}
